@@ -1,0 +1,31 @@
+{
+    "title": "Homedepot Category Scraper Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "categoryIds": {
+            "title": "Category IDs",
+            "type": "array",
+            "description": "An array of Homedepot Category IDs. You can provide multiple Category IDs or just one.",
+            "prefill": ["123456789"],
+            "editor": "stringList"
+        },
+        "offset": {
+            "title": "offset",
+            "description": "Start from specific offset",
+            "type": "integer",
+            "minimum": 0,
+            "default": 0
+        },
+        "proxyConfiguration":{
+            "title": "Proxy configuration",
+            "type": "object",
+            "description": "Select proxies for scraper.",
+            "prefill": { "useApifyProxy": true },
+            "editor": "proxy"
+        }
+    },
+    "required": [
+        "categoryIds"
+    ]
+}
