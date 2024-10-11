@@ -54,8 +54,8 @@ func (s *scraper) Run() {
 			if i == nil {
 				break
 			}
-			go s.startScrapeCategory(i.(string))
 
+			s.startScrapeCategory(i.(string))
 			time.Sleep(500 * time.Millisecond)
 		}
 
@@ -204,7 +204,7 @@ func (s *scraper) startScrapeCategory(categoryID string) {
 				continue
 			}
 
-			time.Sleep(500 * time.Millisecond)
+			time.Sleep(1 * time.Second)
 		}
 	}
 
