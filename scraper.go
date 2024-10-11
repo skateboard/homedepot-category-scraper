@@ -153,7 +153,7 @@ func (s *scraper) startScrapeCategory(categoryID string) {
 			res.Body.Close()
 
 			if res.StatusCode != 200 {
-				fmt.Printf("%s: failed getting products: %d\n", categoryID, res.StatusCode)
+				fmt.Printf("%s: failed getting products: %d %s\n", categoryID, res.StatusCode, string(b))
 				continue
 			}
 
