@@ -1,4 +1,4 @@
-![enter image description here](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.militaryfriendly.com%2Fwp-content%2Fuploads%2F2018%2F11%2FHOME-DEPOT-LOGO.png&f=1&nofb=1&ipt=fd1e57450eda165ab7515af18e26e2b6731f7159bfb0b8f2abc645c917acedef&ipo=images)
+![enter image description here](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngmart.com%2Ffiles%2F16%2FHome-Depot-Logo-PNG-Image.png&f=1&nofb=1&ipt=def5757aced3b327c03b99e5ef3280e8f0c80bc271e4c8682ef7f1c5bd1f976f&ipo=images)
 
 # Homedepot Category Scraper
 
